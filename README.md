@@ -21,6 +21,7 @@
 ## Introduction
 
 The **Crypto Transactions API** is a Node.js-based backend service designed for managing Ethereum transactions, calculating expenses, and providing current Ethereum prices. It includes caching for enhanced performance using Redis and persistent data storage with MongoDB.
+URL = [https://crypto-api.run.place/api/transactions/](https://crypto-api.run.place/api/transactions/)
 
 ## Features
 
@@ -112,7 +113,7 @@ Ensure the values are correctly set according to your development and production
 
 ### 2. Get Expenses
 
-**Endpoint**: `/api/expenses/:address`  
+**Endpoint**: `/api/transactions/expenses/:address`  
 **URL**: `https://crypto-api.run.place/api/transactions/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0d`  
 **Method**: `GET`  
 **Description**: Calculate total expenses for the given Ethereum address and fetch the current Ethereum price.
