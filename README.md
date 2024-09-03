@@ -39,9 +39,8 @@ URL = [https://crypto-api.run.place/api/transactions/](https://crypto-api.run.pl
 - **MongoDB**: NoSQL database for storing transaction data.
 - **Redis**: In-memory data structure store, used as a database, cache, and message broker.
 - **Axios**: Promise-based HTTP client for API requests.
-- **Socket.IO**: Enables real-time bidirectional event-based communication.
+- **Helmet.js**: To hide technologies used in This API and Making secure this API.
 - **Mongoose**: MongoDB object modeling for Node.js.
-- **WebRTC**: Real-Time Communication for peer-to-peer applications.
 
 ## Prerequisites
 
