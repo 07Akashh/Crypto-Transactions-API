@@ -88,6 +88,7 @@ Ensure the values are correctly set according to your development and production
 ### 1. Fetch Transactions
 
 **Endpoint**: `/api/transactions/:address`  
+**URL**: `https://crypto-api.run.place/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d?page=1`
 **Method**: `GET`  
 **Description**: Fetch Ethereum transactions for a given address with pagination.
 
@@ -112,6 +113,7 @@ Ensure the values are correctly set according to your development and production
 ### 2. Get Expenses
 
 **Endpoint**: `/api/expenses/:address`  
+**URL**: `https://crypto-api.run.place/api/transactions/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0d`
 **Method**: `GET`  
 **Description**: Calculate total expenses for the given Ethereum address and fetch the current Ethereum price.
 
